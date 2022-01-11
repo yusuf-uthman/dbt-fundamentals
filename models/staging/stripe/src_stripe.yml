@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe_src
+    database: jaffle_shop
+    schema: public
+    tables:
+      - name: stripe_payments
